@@ -39,11 +39,12 @@ h1{
 }
 .banner{
     background-color: #FFF8F3;
-    padding: 40px;
+    /* padding: 40px; */
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 0 10%;
+    /* padding: 0 10%; */
+    padding: 30px 30px 0px 150px;
 }
 .banner-text{
     padding: 50px;
@@ -80,7 +81,7 @@ h1{
         font-size: 20px;
         color: #474747;
     }
-    .div-legent{
+    .div-legend{
         display: flex;
         justify-content: space-around;
     }
@@ -125,7 +126,40 @@ h1{
 }
     .Resume-display{
         display: flex;
-        margin: 100px;
+        margin: 0 100px;
         padding: 70px;
         gap: 50px;
     }
+    .download-cv{
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+ /* footer style */
+ .input-style{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+ }
+ .footer-bg{
+    background-color: #FFF8F3;
+    display:flex;
+    padding: 150px;
+    gap: 50px;
+    margin-top: 10px;
+ }
+ .footer-width{
+    width: 100%;
+
+ }
+ .span{
+    padding-left: 160px;
+    padding-top: 10px;
+ }
+ a{
+    padding-left: 8px;
+ }
